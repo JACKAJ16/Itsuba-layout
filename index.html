@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Document</title>
+	<link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://allfont.ru/allfont.css?fonts=open-sans-extrabold" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<section class="intro">
+		<div class="intro__inner">
+			<div class="intro__header">
+				<h1 class="intro__heading">
+					Improve kendo
+				</h1>
+				<h1 class="intro__heading normal">
+					Itsuba
+				</h1>
+			</div>				
+			<div class="form-container">
+				<form class="form" action="#" onsubmit="fetchData(); return false">
+					<input class="input" onchange="defaultColor()" placeholder="full name" type="text">
+					<input class="input" onchange="defaultColor()" placeholder="email" type="email">
+					<input value="submit" class="submit" type="submit">
+				</form>
+			</div>			
+			<div class="intro__footer">
+				<div class="intro__footer-paragraph">
+					<p>Smart tsuba that allows you to track <br> all your shinai movements</p>
+				</div>
+				<div class="intro__footer__heading hidden">
+					<h1 class="intro__heading">
+						Enjoy kendo
+					</h1>
+				</div>
+			</div>	
+		</div>
+	</section>
+	<section class="data">
+		<div class="data__inner">
+			<div class="data__heading-container">
+				<h3 class="data__supheading">How it works</h3>
+				<h2 class="data__heading">Share your data with your friends</h2>
+			</div>				
+			<div class="features">
+				<div class="info">
+					<div class="info__item">
+						<div class="info__number">001</div>
+						<div class="info__paragraph">Turn on your iTsuba <br> before keiko</div>
+					</div>
+					<div class="info__item">
+						<div class="info__number">002</div>
+						<div class="info__paragraph">iTsuba will collect all data <br> about your movements</div>
+					</div>
+					<div class="info__item">
+						<div class="info__number">003</div>
+						<div class="info__paragraph">Connect iTsuba <br> to your smartphone</div>
+					</div>
+					<div class="info__item">
+						<div class="info__number">004</div>
+						<div class="info__paragraph">
+							A machine-learning algorithm will analyze <br> all data and show you statistics
+						</div>
+					</div>				
+				</div>
+				<div class="features__img">
+					<img src="./assets/images/phone.png" alt="phone">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+	<script src="./assets/js/script.js"></script>
+</body>
+</html>
